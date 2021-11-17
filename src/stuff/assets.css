@@ -1,0 +1,135 @@
+/* ------------------------------------------------------------ 🌷 FRIENDS TABS ------------------------------------------------------------ */
+
+/* ---- Images Base ---- */
+.marginBottom40-2vIwTv {
+    margin-bottom: 10px;
+}
+.image-1GzsFd.marginBottom40-2vIwTv[style] {
+    width: 415px !important;
+    height: 250px !important;
+}
+
+/* ---- Texts Base ---- */
+.theme-dark .peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "";
+}
+.marginTop8-1DLZ1n {
+    margin-top: 0;
+}
+#online-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n,
+#all-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n,
+#pending-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n,
+#blocked-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n,
+#add_friend-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n {
+    visibility: hidden;
+    position: relative;
+}
+#online-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n:after,
+#all-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n:after,
+#pending-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n:after,
+#blocked-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n:after,
+#add_friend-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n:after {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: var(--text-muted);
+}
+
+/* ---- ONLINE Tab ---- */
+/* Image */
+.theme-dark
+    [style*='background-image: url("/assets/b36de980b174d7b798c89f35c116e5c6.svg");'],
+.theme-dark
+    [style*='background-image: url("/assets/fd879a28807b66b38d54e7db6ea18a69.svg");'] {
+    background-image: url(https://kaiidoo.github.io/Newcord/assets/friends%20tabs/onlineTab.svg) !important;
+}
+/* Text */
+[lang="en-GB"]
+    #online-tab.peopleColumn-29fq28
+    .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "There is no one around. You should take a look at the tavern, there are lots of people there!";
+    width: 415px;
+    left: -70px;
+}
+[lang="fr"]
+    #online-tab.peopleColumn-29fq28
+    .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "Il n'y a personne aux alentours. Tu devrais jeter un coup d'œil à la taverne, il y a plein de monde là-bas !";
+    width: 415px;
+    left: -70px;
+}
+
+/* ---- ALL Tab ---- */
+/* Image */
+#all-tab.peopleColumn-29fq28 .image-1GzsFd {
+    background-image: url(https://kaiidoo.github.io/Newcord/assets/friends%20tabs/allTab.svg) !important;
+}
+/* Text */
+#all-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n {
+    margin-bottom: 10px;
+}
+[lang="en-GB"]
+    #all-tab.peopleColumn-29fq28
+    .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "You have no friends for the moment ... You should try to go in a server for meet some people!";
+}
+[lang="fr"] #all-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "Tu n'as pas d'amis pour le moment ... Tu devrais essayer d'aller dans un serveur pour rencontrer des gens !";
+}
+
+/* ---- PENDING Tab ---- */
+/* Image */
+[style*='background-image: url("/assets/b36c705f790dad253981f1893085015a.svg");'],
+[style*='background-image: url("/assets/36c9a2fb7d0593a581a92373121c2848.svg");'] {
+    background-image: url(https://kaiidoo.github.io/Newcord/assets/friends%20tabs/pendingTab.svg) !important;
+}
+/* Text */
+[lang="en-GB"]
+    #pending-tab.peopleColumn-29fq28
+    .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "There are no pending friend requests. But as they say, it's not the number that counts!";
+}
+[lang="fr"]
+    #pending-tab.peopleColumn-29fq28
+    .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "Il n'y a pas de demandes d'ami en attente. Mais comme on dit, ce n'est pas le nombre qui compte !";
+}
+
+/* ---- BLOCKED Tab ---- */
+/* Image */
+[style*='background-image: url("/assets/8c998f8fb62016fcfb4901e424ff378b.svg");'],
+[style*='background-image: url("/assets/645df33d735507f39c78ce0cac7437f0.svg");'] {
+    background-image: url(https://kaiidoo.github.io/Newcord/assets/friends%20tabs/blockedTab.svg) !important;
+}
+/* Text */
+#blocked-tab.peopleColumn-29fq28 .text-GwUZgS.marginTop8-1DLZ1n:after {
+    left: 10px;
+}
+[lang="en-GB"]
+    #blocked-tab.peopleColumn-29fq28
+    .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "Waw, it's strangely quiet here!";
+}
+[lang="fr"]
+    #blocked-tab.peopleColumn-29fq28
+    .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "Waw, c'est drôlement calme ici !";
+}
+
+/* ---- ADD FRIEND Tab ---- */
+/* Image */
+#add_friend-tab.peopleColumn-29fq28 .image-1GzsFd {
+    background-image: url(https://kaiidoo.github.io/Newcord/assets/friends%20tabs/addFriendTab.svg) !important;
+}
+/* Text */
+[lang="en-GB"]
+    #add_friend-tab.peopleColumn-29fq28
+    .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "They two are waiting for friends to play. But nothing forces you to add more!";
+}
+[lang="fr"]
+    #add_friend-tab.peopleColumn-29fq28
+    .text-GwUZgS.marginTop8-1DLZ1n:after {
+    content: "Eux deux attendent des amis pour jouer. Mais rien ne t'oblige à en ajouter !";
+}

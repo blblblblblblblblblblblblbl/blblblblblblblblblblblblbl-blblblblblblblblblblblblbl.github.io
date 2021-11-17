@@ -1,0 +1,81 @@
+/* ------------------------------------------------------------ 🌷 ACCOUNTS LOGOS ------------------------------------------------------------ */
+
+/* ---- Twitch ---- */
+[style*='background-image: url("/assets/edbbf6107b2cd4334d582b26e1ac786d.png");'] {
+    background-image: url(https://kaiidoo.github.io/Newcord/icons/networks/twitch.svg) !important;
+}
+[src="/assets/edbbf6107b2cd4334d582b26e1ac786d.png"] {
+    content: url(https://kaiidoo.github.io/Newcord/icons/networks/twitch.svg) !important;
+}
+
+/* ---- Youtube ---- */
+[style*='background-image: url("/assets/449cca50c1452b4ace3cbe9bc5ae0fd6.png");'] {
+    background-image: url(https://kaiidoo.github.io/Newcord/icons/networks/youtube.svg) !important;
+}
+[src="/assets/449cca50c1452b4ace3cbe9bc5ae0fd6.png"] {
+    content: url(https://kaiidoo.github.io/Newcord/icons/networks/youtube.svg) !important;
+}
+
+/* ---- Battle.net ---- */
+.inner-2Y6JuD.accountBtnInner-sj5jLs[aria-label="Battle.net"] {
+    background-image: url(https://kaiidoo.github.io/Newcord/icons/networks/battleNet.svg) !important;
+}
+[src="/assets/8c289d499232cd8e9582b4a5639d9d1d.png"] {
+    content: url(https://kaiidoo.github.io/Newcord/icons/networks/battleNet.svg) !important;
+}
+
+/* ---- Steam ---- */
+.inner-2Y6JuD.accountBtnInner-sj5jLs[aria-label="Steam"] {
+    background-image: url(https://kaiidoo.github.io/Newcord/icons/networks/steam.svg) !important;
+}
+[src="/assets/f09c1c70a67ceaaeb455d163f3f9cbb8.png"] {
+    content: url(https://kaiidoo.github.io/Newcord/icons/networks/steam.svg) !important;
+}
+
+/* ---- Reddit ---- */
+.inner-2Y6JuD.accountBtnInner-sj5jLs[aria-label="Reddit"] {
+    background-image: url(https://kaiidoo.github.io/Newcord/icons/networks/reddit.svg) !important;
+}
+[src="/assets/3abe9ce5a00cc24bd8aae04bf5968f4c.png"] {
+    content: url(https://kaiidoo.github.io/Newcord/icons/networks/reddit.svg) !important;
+}
+
+/* ---- Facebook ---- */
+.inner-2Y6JuD.accountBtnInner-sj5jLs[aria-label="Facebook"] {
+    background-image: url(https://kaiidoo.github.io/Newcord/icons/networks/facebook.svg) !important;
+}
+[src="/assets/8d8f815f3d81a33b1e70ec7c22e1b6fe.png"] {
+    content: url(https://kaiidoo.github.io/Newcord/icons/networks/facebook.svg) !important;
+}
+
+/* ---- Twitter ---- */
+.inner-2Y6JuD.accountBtnInner-sj5jLs[aria-label="Twitter"] {
+    background-image: url(https://kaiidoo.github.io/Newcord/icons/networks/twitter.svg) !important;
+}
+[src="/assets/4662875160dc4c56954003ebda995414.png"] {
+    content: url(https://kaiidoo.github.io/Newcord/icons/networks/twitter.svg) !important;
+}
+
+/* ---- Spotify ---- */
+.inner-2Y6JuD.accountBtnInner-sj5jLs[aria-label="Spotify"] {
+    background-image: url(https://kaiidoo.github.io/Newcord/icons/networks/spotify.svg) !important;
+}
+[src="/assets/f0655521c19c08c4ea4e508044ec7d8c.png"] {
+    content: url(https://kaiidoo.github.io/Newcord/icons/networks/spotify.svg) !important;
+}
+
+/* ---- Xbox Live ---- */
+.inner-2Y6JuD.accountBtnInner-sj5jLs[aria-label="Xbox Live"] {
+    background-image: url(https://kaiidoo.github.io/Newcord/icons/networks/xbox.svg) !important;
+}
+[src="/assets/0d44ba28e39303de3832db580a252456.png"] {
+    content: url(https://kaiidoo.github.io/Newcord/icons/networks/xbox.svg) !important;
+}
+
+/* ---- GitHub ---- */
+.inner-2Y6JuD.accountBtnInner-sj5jLs[aria-label="GitHub"] {
+    background-image: url(https://kaiidoo.github.io/Newcord/icons/networks/github.svg) !important;
+}
+[src="/assets/5d69e29f0d71aaa04ed9725100199b4e.png"] {
+    content: url(https://kaiidoo.github.io/Newcord/icons/networks/github.svg) !important;
+}
